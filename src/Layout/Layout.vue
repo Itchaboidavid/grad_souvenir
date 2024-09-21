@@ -37,7 +37,7 @@ const toggleMenu = () => {
                     <RouterLink :to="{ name: 'about' }"
                         class="btn btn-ghost hover:bg-gradient-to-r hover:from-pink-500 hover:to-pink-600 hover:bg-clip-text hover:text-transparent active:bg-gradient-to-r active:from-pink-500 active:to-pink-600 active:bg-clip-text active:text-transparent">
                         ABOUT ME</RouterLink>
-                    <RouterLink :to="{ name: 'journey' }"
+                    <RouterLink :to="{ name: 'gradpic' }"
                         class="btn btn-ghost hover:bg-gradient-to-r hover:from-pink-500 hover:to-pink-600 hover:bg-clip-text hover:text-transparent active:bg-gradient-to-r active:from-pink-500 active:to-pink-600 active:bg-clip-text active:text-transparent">
                         GRAD PICS</RouterLink>
                 </div>
@@ -45,13 +45,13 @@ const toggleMenu = () => {
 
             <!-- Mobile menu (visible when isMenuOpen is true) -->
             <div v-if="isMenuOpen" class="mt-4 md:hidden flex flex-col space-y-2">
-                <RouterLink :to="{ name: 'home' }"
+                <RouterLink :to="{ name: 'home' }" @click="isMenuOpen = false"
                     class="btn btn-ghost hover:bg-gradient-to-r hover:from-pink-500 hover:to-pink-600 hover:bg-clip-text hover:text-transparent active:bg-gradient-to-r active:from-pink-500 active:to-pink-600 active:bg-clip-text active:text-transparent">
                     HOME</RouterLink>
-                <RouterLink :to="{ name: 'about' }"
+                <RouterLink :to="{ name: 'about' }" @click="isMenuOpen = false"
                     class="btn btn-ghost hover:bg-gradient-to-r hover:from-pink-500 hover:to-pink-600 hover:bg-clip-text hover:text-transparent active:bg-gradient-to-r active:from-pink-500 active:to-pink-600 active:bg-clip-text active:text-transparent">
                     ABOUT ME</RouterLink>
-                <RouterLink :to="{ name: 'journey' }"
+                <RouterLink :to="{ name: 'gradpic' }" @click="isMenuOpen = false"
                     class="btn btn-ghost hover:bg-gradient-to-r hover:from-pink-500 hover:to-pink-600 hover:bg-clip-text hover:text-transparent active:bg-gradient-to-r active:from-pink-500 active:to-pink-600 active:bg-clip-text active:text-transparent">
                     GRAD PICS</RouterLink>
             </div>

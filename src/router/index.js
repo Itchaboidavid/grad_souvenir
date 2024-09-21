@@ -24,8 +24,8 @@ const routes = [
                 component: About,
             },
             {
-                path: '/journey',
-                name: 'journey',
+                path: '/gradpic',
+                name: 'gradpic',
                 component: Journey,
             },
         ],
