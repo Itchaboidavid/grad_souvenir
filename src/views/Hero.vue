@@ -86,8 +86,8 @@ onUnmounted(() => {
 
                 </div>
                 <p class="text-white text-md mb-10" style="text-shadow: 1px 1px 3px black;">
-                    Celebration reception is at Cabrera residence. 2 o'clock in the afternoon. See
-                    you there!
+                    Celebration reception is at Cabrera residence, September 24 at 2 o'clock in the afternoon. See you
+                    there!
                 </p>
                 <small class="text-white">
                     We can't wait to celebrate with you. Save the date and come enjoy this special moment with us!
