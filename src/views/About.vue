@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="h-screen grid place-items-center bg-gradient-to-br from-pink-400 to-pink-500">
+    <div class="h-screen grid place-items-center bg-gradient-to-b from-pink-400 to-pink-500">
         <div class="max-w-screen-md mx-auto">
             <h1 class="text-center text-white text-3xl md:text-4xl lg:text-5xl mb-5 md:mb-10 font-bold"
                 style="text-shadow: 1px 1px 1px black;">About Me</h1>
