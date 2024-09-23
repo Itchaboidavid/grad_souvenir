@@ -53,38 +53,45 @@ onUnmounted(() => {
             <div class="max-w-md">
                 <div class="grid place-items-center mb-10">
                     <h1 class="mb-5 text-5xl font-bold text-pink-700" style="text-shadow: 3px 3px 1px white;">
-                        Hello there! Thank you for coming :>
+                        Hello there! You are invited to join the celebration!
                     </h1>
-                    <h2 class="text-xl md:text-2xl text-white mb-5" style="text-shadow: 1px 1px 3px black;">
-                        Count down till Graduation day!
-                    </h2>
-                    <div class="grid auto-cols-max grid-flow-col gap-5 text-center">
-                        <div class="bg-pink-400 rounded-box text-white flex flex-col p-2"
-                            style="text-shadow: 1px 1px 3px black;">
-                            <span class="countdown font-mono text-5xl">
-                                <span :style="`--value:${hours}`"></span>
-                            </span>
-                            hours
-                        </div>
-                        <div class="bg-pink-400 rounded-box text-white flex flex-col p-2"
-                            style="text-shadow: 1px 1px 3px black;">
-                            <span class="countdown font-mono text-5xl">
-                                <span :style="`--value:${minutes}`"></span>
-                            </span>
-                            min
-                        </div>
-                        <div class="bg-pink-400 rounded-box text-white flex flex-col p-2"
-                            style="text-shadow: 1px 1px 3px black;">
-                            <span class="countdown font-mono text-5xl">
-                                <span :style="`--value:${seconds}`"></span>
-                            </span>
-                            sec
+                    <div v-if="targetDate > new Date()" class="grid place-items-center">
+                        <h2 class="text-xl md:text-2xl text-white mb-5" style="text-shadow: 1px 1px 3px black;">
+                            Count down till Graduation day!
+                        </h2>
+                        <div class="grid auto-cols-max grid-flow-col gap-5 text-center">
+                            <div class="bg-pink-400 rounded-box text-white flex flex-col p-2"
+                                style="text-shadow: 1px 1px 3px black;">
+                                <span class="countdown font-mono text-5xl">
+                                    <span :style="`--value:${hours}`"></span>
+                                </span>
+                                hours
+                            </div>
+                            <div class="bg-pink-400 rounded-box text-white flex flex-col p-2"
+                                style="text-shadow: 1px 1px 3px black;">
+                                <span class="countdown font-mono text-5xl">
+                                    <span :style="`--value:${minutes}`"></span>
+                                </span>
+                                min
+                            </div>
+                            <div class="bg-pink-400 rounded-box text-white flex flex-col p-2"
+                                style="text-shadow: 1px 1px 3px black;">
+                                <span class="countdown font-mono text-5xl">
+                                    <span :style="`--value:${seconds}`"></span>
+                                </span>
+                                sec
+                            </div>
                         </div>
                     </div>
+
                 </div>
-                <p class="mb-5 text-white text-lg" style="text-shadow: 1px 1px 3px black;">
-                    I appreciate all the time and effort you took to come to my celebration. Thank you so much!
+                <p class="mb-10 text-white text-lg" style="text-shadow: 1px 1px 3px black;">
+                    We can't wait to celebrate with you. Save the date and come enjoy this special moment with us!
                 </p>
+                <small class="text-white">
+                    Celebration reception is at Cabrera residence. 2 o'clock in the afternoon. See
+                    you there!
+                </small>
             </div>
         </div>
     </div>
