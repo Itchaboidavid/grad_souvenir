@@ -14,10 +14,9 @@
                     <h3 class="text-xl md:text-4xl font-semibold" style="text-shadow: 1px 1px 3px black;">Yasy Mae M.
                         Cabrera, CHRA</h3>
                     <p class="py-6 text-justify" style="text-shadow: 1px 1px 3px black;">
-                        Hi! I'm Yasy, a psychology major student who graduated today. I am an aspiring human resource
-                        associate and a mental health advocate. In my free time, I enjoy reading, watching dramas,
-                        social media browsing, and playing online games. I'm excited to see what's ahead of
-                        me(⁠灬•‿•灬⁠)⁠♡
+                        Hi! I'm Yasy, a psychology major graduate. I am an aspiring human resource associate and a
+                        mental health advocate. In my free time, I enjoy reading, watching dramas, social media
+                        browsing, and playing online games. I'm excited to see what's ahead of me(⁠灬•‿•灬⁠)⁠♡
                     </p>
                     <div class="flex justify-center md:justify-start items-center space-x-6 text-xl">
                         <a href="https://www.facebook.com/yuhseee" target="_blank"
