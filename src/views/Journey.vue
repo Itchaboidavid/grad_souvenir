@@ -42,8 +42,11 @@
         <Teleport to="#modal">
             <dialog id="my_modal_2" class="modal">
                 <div class="modal-box bg-pink-400 text-white">
-                    <h3 class="text-xl font-bold text-center mb-5">Surpirseeeeeeeeeeeeee! Namamasko po 🥳✌️</h3>
-                    <img src="../assets/images/gcash_qr.jpg" alt="gcash qr" class="shadow-md rounded-lg shadow-white">
+                    <div class="flex flex-col justify-center items-center">
+                        <h3 class="text-xl font-bold text-center mb-5">Surpirseeeeeeeeeeeeee! Namamasko po 🥳✌️</h3>
+                        <img src="../assets/images/gcash_qr.jpg" alt="gcash qr"
+                            class="shadow-md rounded-lg shadow-white md:h-[400px]">
+                    </div>
                 </div>
                 <form method="dialog" class="modal-backdrop">
                     <button>close</button>
