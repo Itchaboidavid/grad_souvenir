@@ -3,7 +3,7 @@ import { ref, onMounted, onUnmounted } from 'vue';
 import hero_bg from '../assets/images/hero_bg.jpg';
 
 // Countdown target date (September 24 of the current year)
-const targetDate = new Date(new Date().getFullYear(), 8, 24, 0, 0, 0); // Month 8 is September (0-indexed)
+const targetDate = new Date(new Date().getFullYear(), 8, 24, 11, 0, 0); // Month 8 is September (0-indexed)
 
 // Reactive variables for countdown
 const hours = ref(0);
@@ -85,12 +85,12 @@ onUnmounted(() => {
                     </div>
 
                 </div>
-                <p class="mb-10 text-white text-lg" style="text-shadow: 1px 1px 3px black;">
-                    We can't wait to celebrate with you. Save the date and come enjoy this special moment with us!
-                </p>
-                <small class="text-white">
+                <p class="text-white text-md mb-10" style="text-shadow: 1px 1px 3px black;">
                     Celebration reception is at Cabrera residence. 2 o'clock in the afternoon. See
                     you there!
+                </p>
+                <small class="text-white">
+                    We can't wait to celebrate with you. Save the date and come enjoy this special moment with us!
                 </small>
             </div>
         </div>
