@@ -3,17 +3,17 @@
 </script>
 
 <template>
-    <div class="h-screen grid place-items-center bg-gradient-to-b from-pink-400 to-pink-500">
+    <div class="h-screen grid place-items-center bg-gradient-to-b pt-10 from-pink-400 to-pink-500">
         <div class="max-w-screen-md mx-auto">
             <h1 class="text-center text-white text-3xl md:text-4xl lg:text-5xl mb-5 md:mb-10 font-bold"
-                style="text-shadow: 1px 1px 1px black;">About Me</h1>
+                style="text-shadow: 1px 1px 3px black;">About Me</h1>
             <div class="grid grid-cols-1 md:grid-cols-2 place-items-center gap-x-10">
                 <img src="../assets/images/about_me2.jpg"
                     class="rounded-lg shadow-lg max-w-md w-[250px] h-[250px] mb-5 md:w-[350px] md:h-[400px]" />
                 <div class="text-white text-center md:text-start px-10">
-                    <h3 class="text-2xl md:text-4xl font-bold" style="text-shadow: 1px 1px 1px black;">Yasy Mae M.
+                    <h3 class="text-2xl md:text-4xl font-bold" style="text-shadow: 1px 1px 3px black;">Yasy Mae M.
                         Cabrera, CHRA</h3>
-                    <p class="py-6 text-justify" style="text-shadow: 1px 1px 1px black;">
+                    <p class="py-6 text-justify" style="text-shadow: 1px 1px 3px black;">
                         Hi, I’m Yasy Mae, I’m passionate about understanding the human mind and have volunteered in
                         community outreach
                         programs to develop my counseling skills. I aspire to work as a mental health counselor to make
